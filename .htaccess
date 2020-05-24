@@ -1,0 +1,7 @@
+﻿RewriteEngine On
+
+RewriteRule "^studios" "api/get-studios.php"
+
+RewriteRule "^game/(.*)" api/remove-game.php?id=$1
+
+RewriteRule "^game" "api/save-game.php"

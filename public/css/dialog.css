@@ -1,0 +1,76 @@
+﻿.dialog-background {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-window {
+    background-color: #363642;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    max-width: 90vw;
+}
+
+.dialog-title {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.dialog-content input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+#game-picture{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #aaa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.dialog-buttons {
+    display: flex;
+}
+
+.dialog-button {
+    padding: 10px;
+    border: 1px solid #eee;
+    color: #eee;
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+    .dialog-button:hover {
+        background-color: #eee;
+        color: #363642;
+    }
